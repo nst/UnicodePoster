@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0301097D19B494C000FDC56D /* UCPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301097C19B494C000FDC56D /* UCPlaneView.m */; };
+		0301098019B49B5B00FDC56D /* UCBlocksReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301097F19B49B5B00FDC56D /* UCBlocksReader.m */; };
+		0301F6F019B200CF00E54CD0 /* UCCharsAndGylphsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301F6EF19B200CF00E54CD0 /* UCCharsAndGylphsView.m */; };
+		0311A503199A4AA700B7C2E9 /* UCMiniPlanesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311A502199A4AA700B7C2E9 /* UCMiniPlanesView.m */; };
+		0311A50A199B986000B7C2E9 /* UCUTF8View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311A509199B986000B7C2E9 /* UCUTF8View.m */; };
+		0311A50D199B987000B7C2E9 /* UCUTF16View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311A50C199B987000B7C2E9 /* UCUTF16View.m */; };
+		0311A510199B988900B7C2E9 /* UCNormalizationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311A50F199B988900B7C2E9 /* UCNormalizationView.m */; };
+		03136021199373ED00AAD77D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03136020199373ED00AAD77D /* Foundation.framework */; };
+		03136024199373ED00AAD77D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03136023199373ED00AAD77D /* main.m */; };
+		03136028199373ED00AAD77D /* UnicodePoster.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03136027199373ED00AAD77D /* UnicodePoster.1 */; };
+		0336AC7E19C8D17600942BE1 /* UCTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336AC7D19C8D17600942BE1 /* UCTitleView.m */; };
+		0344094019A4BC6500C7C354 /* NSFont+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344093F19A4BC6500C7C354 /* NSFont+UC.m */; };
+		0344094319A4CC2700C7C354 /* UCBrailleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344094219A4CC2700C7C354 /* UCBrailleView.m */; };
+		037DC0CC199AA87D00FFDDB8 /* UCVariationSelectorsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC0CB199AA87D00FFDDB8 /* UCVariationSelectorsView.m */; };
+		037DC0D0199AC4EA00FFDDB8 /* UCLastResortFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC0CF199AC4EA00FFDDB8 /* UCLastResortFont.m */; };
+		037DC0D3199AC4FA00FFDDB8 /* UCFlagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC0D2199AC4FA00FFDDB8 /* UCFlagsView.m */; };
+		03DDFA721995A87600D912F4 /* UCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DDFA711995A87600D912F4 /* UCMainView.m */; };
+		03E67D0919C062BA00BD9313 /* UCBitsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E67D0819C062BA00BD9313 /* UCBitsView.m */; };
+		03F8106719D2E5A80097E24B /* NSColor+UC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F8106619D2E5A80097E24B /* NSColor+UC.m */; };
+		03FCC7AA19D1F7DA007C91CD /* UCCollationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC7A919D1F7DA007C91CD /* UCCollationView.m */; };
+		03FCC7AD19D1F7F0007C91CD /* UCCaseMappingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC7AC19D1F7F0007C91CD /* UCCaseMappingView.m */; };
+		03FCC7B019D1F803007C91CD /* UCRegexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC7AF19D1F803007C91CD /* UCRegexView.m */; };
+		03FCC7B319D1F81C007C91CD /* UCBidirectionalTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC7B219D1F81C007C91CD /* UCBidirectionalTextView.m */; };
+		03FCC7BF19D213C0007C91CD /* UCUTF32View.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC7BE19D213C0007C91CD /* UCUTF32View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0313601B199373ED00AAD77D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				03136028199373ED00AAD77D /* UnicodePoster.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0301097B19B494C000FDC56D /* UCPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCPlaneView.h; sourceTree = "<group>"; };
+		0301097C19B494C000FDC56D /* UCPlaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCPlaneView.m; sourceTree = "<group>"; };
+		0301097E19B49B5B00FDC56D /* UCBlocksReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCBlocksReader.h; sourceTree = "<group>"; };
+		0301097F19B49B5B00FDC56D /* UCBlocksReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCBlocksReader.m; sourceTree = "<group>"; };
+		0301F6EE19B200CF00E54CD0 /* UCCharsAndGylphsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCCharsAndGylphsView.h; sourceTree = "<group>"; };
+		0301F6EF19B200CF00E54CD0 /* UCCharsAndGylphsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCCharsAndGylphsView.m; sourceTree = "<group>"; };
+		0311A501199A4AA700B7C2E9 /* UCMiniPlanesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCMiniPlanesView.h; sourceTree = "<group>"; };
+		0311A502199A4AA700B7C2E9 /* UCMiniPlanesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCMiniPlanesView.m; sourceTree = "<group>"; };
+		0311A507199B6CFD00B7C2E9 /* Flags.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Flags.txt; sourceTree = "<group>"; };
+		0311A508199B986000B7C2E9 /* UCUTF8View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCUTF8View.h; sourceTree = "<group>"; };
+		0311A509199B986000B7C2E9 /* UCUTF8View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCUTF8View.m; sourceTree = "<group>"; };
+		0311A50B199B987000B7C2E9 /* UCUTF16View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCUTF16View.h; sourceTree = "<group>"; };
+		0311A50C199B987000B7C2E9 /* UCUTF16View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCUTF16View.m; sourceTree = "<group>"; };
+		0311A50E199B988900B7C2E9 /* UCNormalizationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCNormalizationView.h; sourceTree = "<group>"; };
+		0311A50F199B988900B7C2E9 /* UCNormalizationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCNormalizationView.m; sourceTree = "<group>"; };
+		0313601D199373ED00AAD77D /* UnicodePoster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnicodePoster; sourceTree = BUILT_PRODUCTS_DIR; };
+		03136020199373ED00AAD77D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03136023199373ED00AAD77D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03136026199373ED00AAD77D /* UnicodePoster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnicodePoster-Prefix.pch"; sourceTree = "<group>"; };
+		03136027199373ED00AAD77D /* UnicodePoster.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = UnicodePoster.1; sourceTree = "<group>"; };
+		0336AC7C19C8D17600942BE1 /* UCTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCTitleView.h; sourceTree = "<group>"; };
+		0336AC7D19C8D17600942BE1 /* UCTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCTitleView.m; sourceTree = "<group>"; };
+		0336AC7F19C8D19E00942BE1 /* title_text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = title_text.txt; sourceTree = "<group>"; };
+		0344093E19A4BC6500C7C354 /* NSFont+UC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFont+UC.h"; sourceTree = "<group>"; };
+		0344093F19A4BC6500C7C354 /* NSFont+UC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFont+UC.m"; sourceTree = "<group>"; };
+		0344094119A4CC2700C7C354 /* UCBrailleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCBrailleView.h; sourceTree = "<group>"; };
+		0344094219A4CC2700C7C354 /* UCBrailleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCBrailleView.m; sourceTree = "<group>"; };
+		035F55E819F9CA780047CD33 /* Blocks_test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Blocks_test.txt; sourceTree = "<group>"; };
+		035F55E919F9CA780047CD33 /* Blocks.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Blocks.txt; sourceTree = "<group>"; };
+		037DC0CA199AA87D00FFDDB8 /* UCVariationSelectorsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCVariationSelectorsView.h; sourceTree = "<group>"; };
+		037DC0CB199AA87D00FFDDB8 /* UCVariationSelectorsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCVariationSelectorsView.m; sourceTree = "<group>"; };
+		037DC0CD199AB48E00FFDDB8 /* BMP_emojis_variants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BMP_emojis_variants.txt; sourceTree = "<group>"; };
+		037DC0CE199AC4EA00FFDDB8 /* UCLastResortFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCLastResortFont.h; sourceTree = "<group>"; };
+		037DC0CF199AC4EA00FFDDB8 /* UCLastResortFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCLastResortFont.m; sourceTree = "<group>"; };
+		037DC0D1199AC4FA00FFDDB8 /* UCFlagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCFlagsView.h; sourceTree = "<group>"; };
+		037DC0D2199AC4FA00FFDDB8 /* UCFlagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCFlagsView.m; sourceTree = "<group>"; };
+		03DDFA701995A87600D912F4 /* UCMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCMainView.h; sourceTree = "<group>"; };
+		03DDFA711995A87600D912F4 /* UCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCMainView.m; sourceTree = "<group>"; };
+		03E67D0719C062BA00BD9313 /* UCBitsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCBitsView.h; sourceTree = "<group>"; };
+		03E67D0819C062BA00BD9313 /* UCBitsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCBitsView.m; sourceTree = "<group>"; };
+		03F8106519D2E5A80097E24B /* NSColor+UC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+UC.h"; sourceTree = "<group>"; };
+		03F8106619D2E5A80097E24B /* NSColor+UC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+UC.m"; sourceTree = "<group>"; };
+		03FCC7A819D1F7DA007C91CD /* UCCollationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCCollationView.h; sourceTree = "<group>"; };
+		03FCC7A919D1F7DA007C91CD /* UCCollationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCCollationView.m; sourceTree = "<group>"; };
+		03FCC7AB19D1F7F0007C91CD /* UCCaseMappingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCCaseMappingView.h; sourceTree = "<group>"; };
+		03FCC7AC19D1F7F0007C91CD /* UCCaseMappingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCCaseMappingView.m; sourceTree = "<group>"; };
+		03FCC7AE19D1F803007C91CD /* UCRegexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCRegexView.h; sourceTree = "<group>"; };
+		03FCC7AF19D1F803007C91CD /* UCRegexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCRegexView.m; sourceTree = "<group>"; };
+		03FCC7B119D1F81C007C91CD /* UCBidirectionalTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCBidirectionalTextView.h; sourceTree = "<group>"; };
+		03FCC7B219D1F81C007C91CD /* UCBidirectionalTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCBidirectionalTextView.m; sourceTree = "<group>"; };
+		03FCC7BD19D213C0007C91CD /* UCUTF32View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCUTF32View.h; sourceTree = "<group>"; };
+		03FCC7BE19D213C0007C91CD /* UCUTF32View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCUTF32View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0313601A199373ED00AAD77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03136021199373ED00AAD77D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03136014199373ED00AAD77D = {
+			isa = PBXGroup;
+			children = (
+				035F55E819F9CA780047CD33 /* Blocks_test.txt */,
+				035F55E919F9CA780047CD33 /* Blocks.txt */,
+				037DC0CD199AB48E00FFDDB8 /* BMP_emojis_variants.txt */,
+				0311A507199B6CFD00B7C2E9 /* Flags.txt */,
+				0336AC7F19C8D19E00942BE1 /* title_text.txt */,
+				03136022199373ED00AAD77D /* UnicodePoster */,
+				0313601F199373ED00AAD77D /* Frameworks */,
+				0313601E199373ED00AAD77D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0313601E199373ED00AAD77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0313601D199373ED00AAD77D /* UnicodePoster */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0313601F199373ED00AAD77D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03136020199373ED00AAD77D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03136022199373ED00AAD77D /* UnicodePoster */ = {
+			isa = PBXGroup;
+			children = (
+				0344093E19A4BC6500C7C354 /* NSFont+UC.h */,
+				0344093F19A4BC6500C7C354 /* NSFont+UC.m */,
+				03F8106519D2E5A80097E24B /* NSColor+UC.h */,
+				03F8106619D2E5A80097E24B /* NSColor+UC.m */,
+				0301097E19B49B5B00FDC56D /* UCBlocksReader.h */,
+				0301097F19B49B5B00FDC56D /* UCBlocksReader.m */,
+				03DDFA701995A87600D912F4 /* UCMainView.h */,
+				03DDFA711995A87600D912F4 /* UCMainView.m */,
+				0301097B19B494C000FDC56D /* UCPlaneView.h */,
+				0301097C19B494C000FDC56D /* UCPlaneView.m */,
+				0311A501199A4AA700B7C2E9 /* UCMiniPlanesView.h */,
+				0311A502199A4AA700B7C2E9 /* UCMiniPlanesView.m */,
+				037DC0CA199AA87D00FFDDB8 /* UCVariationSelectorsView.h */,
+				037DC0CB199AA87D00FFDDB8 /* UCVariationSelectorsView.m */,
+				037DC0D1199AC4FA00FFDDB8 /* UCFlagsView.h */,
+				037DC0D2199AC4FA00FFDDB8 /* UCFlagsView.m */,
+				037DC0CE199AC4EA00FFDDB8 /* UCLastResortFont.h */,
+				037DC0CF199AC4EA00FFDDB8 /* UCLastResortFont.m */,
+				03E67D0719C062BA00BD9313 /* UCBitsView.h */,
+				03E67D0819C062BA00BD9313 /* UCBitsView.m */,
+				0311A508199B986000B7C2E9 /* UCUTF8View.h */,
+				0311A509199B986000B7C2E9 /* UCUTF8View.m */,
+				0311A50B199B987000B7C2E9 /* UCUTF16View.h */,
+				0311A50C199B987000B7C2E9 /* UCUTF16View.m */,
+				03FCC7BD19D213C0007C91CD /* UCUTF32View.h */,
+				03FCC7BE19D213C0007C91CD /* UCUTF32View.m */,
+				0311A50E199B988900B7C2E9 /* UCNormalizationView.h */,
+				0311A50F199B988900B7C2E9 /* UCNormalizationView.m */,
+				03FCC7A819D1F7DA007C91CD /* UCCollationView.h */,
+				03FCC7A919D1F7DA007C91CD /* UCCollationView.m */,
+				03FCC7AB19D1F7F0007C91CD /* UCCaseMappingView.h */,
+				03FCC7AC19D1F7F0007C91CD /* UCCaseMappingView.m */,
+				03FCC7AE19D1F803007C91CD /* UCRegexView.h */,
+				03FCC7AF19D1F803007C91CD /* UCRegexView.m */,
+				0344094119A4CC2700C7C354 /* UCBrailleView.h */,
+				0344094219A4CC2700C7C354 /* UCBrailleView.m */,
+				0301F6EE19B200CF00E54CD0 /* UCCharsAndGylphsView.h */,
+				0301F6EF19B200CF00E54CD0 /* UCCharsAndGylphsView.m */,
+				0336AC7C19C8D17600942BE1 /* UCTitleView.h */,
+				0336AC7D19C8D17600942BE1 /* UCTitleView.m */,
+				03FCC7B119D1F81C007C91CD /* UCBidirectionalTextView.h */,
+				03FCC7B219D1F81C007C91CD /* UCBidirectionalTextView.m */,
+				03136023199373ED00AAD77D /* main.m */,
+				03136027199373ED00AAD77D /* UnicodePoster.1 */,
+				03136025199373ED00AAD77D /* Supporting Files */,
+			);
+			path = UnicodePoster;
+			sourceTree = "<group>";
+		};
+		03136025199373ED00AAD77D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03136026199373ED00AAD77D /* UnicodePoster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0313601C199373ED00AAD77D /* UnicodePoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0313602B199373ED00AAD77D /* Build configuration list for PBXNativeTarget "UnicodePoster" */;
+			buildPhases = (
+				03136019199373ED00AAD77D /* Sources */,
+				0313601A199373ED00AAD77D /* Frameworks */,
+				0313601B199373ED00AAD77D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnicodePoster;
+			productName = UnicodePoster;
+			productReference = 0313601D199373ED00AAD77D /* UnicodePoster */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03136015199373ED00AAD77D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Seriot";
+			};
+			buildConfigurationList = 03136018199373ED00AAD77D /* Build configuration list for PBXProject "UnicodePoster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03136014199373ED00AAD77D;
+			productRefGroup = 0313601E199373ED00AAD77D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0313601C199373ED00AAD77D /* UnicodePoster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03136019199373ED00AAD77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F8106719D2E5A80097E24B /* NSColor+UC.m in Sources */,
+				0344094319A4CC2700C7C354 /* UCBrailleView.m in Sources */,
+				03FCC7B319D1F81C007C91CD /* UCBidirectionalTextView.m in Sources */,
+				0311A50D199B987000B7C2E9 /* UCUTF16View.m in Sources */,
+				0301098019B49B5B00FDC56D /* UCBlocksReader.m in Sources */,
+				03FCC7B019D1F803007C91CD /* UCRegexView.m in Sources */,
+				03E67D0919C062BA00BD9313 /* UCBitsView.m in Sources */,
+				03136024199373ED00AAD77D /* main.m in Sources */,
+				03FCC7BF19D213C0007C91CD /* UCUTF32View.m in Sources */,
+				03DDFA721995A87600D912F4 /* UCMainView.m in Sources */,
+				0311A503199A4AA700B7C2E9 /* UCMiniPlanesView.m in Sources */,
+				03FCC7AA19D1F7DA007C91CD /* UCCollationView.m in Sources */,
+				0344094019A4BC6500C7C354 /* NSFont+UC.m in Sources */,
+				0301097D19B494C000FDC56D /* UCPlaneView.m in Sources */,
+				037DC0D0199AC4EA00FFDDB8 /* UCLastResortFont.m in Sources */,
+				037DC0D3199AC4FA00FFDDB8 /* UCFlagsView.m in Sources */,
+				03FCC7AD19D1F7F0007C91CD /* UCCaseMappingView.m in Sources */,
+				0336AC7E19C8D17600942BE1 /* UCTitleView.m in Sources */,
+				0311A50A199B986000B7C2E9 /* UCUTF8View.m in Sources */,
+				037DC0CC199AA87D00FFDDB8 /* UCVariationSelectorsView.m in Sources */,
+				0311A510199B988900B7C2E9 /* UCNormalizationView.m in Sources */,
+				0301F6F019B200CF00E54CD0 /* UCCharsAndGylphsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03136029199373ED00AAD77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0313602A199373ED00AAD77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0313602C199373ED00AAD77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnicodePoster/UnicodePoster-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0313602D199373ED00AAD77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnicodePoster/UnicodePoster-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03136018199373ED00AAD77D /* Build configuration list for PBXProject "UnicodePoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03136029199373ED00AAD77D /* Debug */,
+				0313602A199373ED00AAD77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0313602B199373ED00AAD77D /* Build configuration list for PBXNativeTarget "UnicodePoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0313602C199373ED00AAD77D /* Debug */,
+				0313602D199373ED00AAD77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03136015199373ED00AAD77D /* Project object */;
+}
