@@ -24,6 +24,7 @@ NSUInteger LASTRESORT_VIEW_LINE_WIDTH = 110;
     CFAttributedStringRef attrStr = CFAttributedStringCreate(kCFAllocatorDefault, string, (CFDictionaryRef) stringAttributes);
     CTLineRef line = CTLineCreateWithAttributedString(attrStr);
     CFShow(line);
+    CFRelease(line);
 }
 
 - (id)initWithFrame:(NSRect)frame

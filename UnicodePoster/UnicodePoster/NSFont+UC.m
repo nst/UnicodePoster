@@ -13,19 +13,19 @@
 + (NSFont *)uc_fontWithName:(NSString *)fontName
                        size:(CGFloat)size
               fallbackNames:(NSArray *)fallbackNames {
-
-	NSMutableArray *fallbackDescriptors = [NSMutableArray array];
     
-	for (NSString *name in fallbackNames) {
-		NSFontDescriptor *fd = [NSFontDescriptor fontDescriptorWithName:name size:size];
+    NSMutableArray *fallbackDescriptors = [NSMutableArray array];
+    
+    for (NSString *name in fallbackNames) {
+        NSFontDescriptor *fd = [NSFontDescriptor fontDescriptorWithName:name size:size];
         if(fd == nil) {
             NSLog(@"-- can't find font descriptor for fallback font %@", name);
             continue;
         }
         [fallbackDescriptors addObject:fd];
-	}
+    }
     
-	NSDictionary *attributes = @{ NSFontNameAttribute : fontName,
+    NSDictionary *attributes = @{ NSFontNameAttribute : fontName,
                                   NSFontCascadeListAttribute : fallbackDescriptors };
     
     NSFontDescriptor *fd = [NSFontDescriptor fontDescriptorWithFontAttributes:attributes];
@@ -38,14 +38,20 @@
     NSDictionary *stringAttributes = [NSDictionary dictionaryWithObject:self forKey: (NSString *)kCTFontAttributeName];
     CFAttributedStringRef attrStr = CFAttributedStringCreate(kCFAllocatorDefault, string, (CFDictionaryRef) stringAttributes);
     CTLineRef line = CTLineCreateWithAttributedString(attrStr);
-    CFArrayRef runs = CTLineGetGlyphRuns(line);
-    CFIndex runsCount = CFArrayGetCount(runs);
-    if(runsCount == 0) return nil;
+    NSArray *runs = (NSArray *)CTLineGetGlyphRuns(line);
     
-    CTRunRef run = CFArrayGetValueAtIndex(runs, 0);
-    NSDictionary *d = (__bridge NSDictionary *)CTRunGetAttributes(run);
-    NSFont *usedFont = [d valueForKey:@"NSFont"];
-    NSString *usedFontName = [usedFont fontName];
+    NSString *usedFontName = nil;
+    
+    if([runs count] > 0) {
+        CTRunRef run = (__bridge CTRunRef)runs[0];
+        NSDictionary *d = (__bridge NSDictionary *)CTRunGetAttributes(run);
+        NSFont *usedFont = [d valueForKey:@"NSFont"];
+        usedFontName = [usedFont fontName];
+    }
+    
+    CFRelease(attrStr);
+    CFRelease(line);
+    
     return usedFontName;
 }
 
