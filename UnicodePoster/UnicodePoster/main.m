@@ -107,7 +107,7 @@ int main(int argc, const char * argv[])
         
         NSBitmapImageRep *rep = [mainView bitmapImageRepForCachingDisplayInRect:[mainView bounds]];
         [mainView cacheDisplayInRect:[mainView bounds] toBitmapImageRep:rep];
-        NSData *data = [rep representationUsingType:NSPNGFileType properties:nil];
+        NSData *data = [rep representationUsingType:NSPNGFileType properties:@{}];
         
         NSString *path = @"/tmp/poster.png";
         NSLog(@"-- writing %@", path);
